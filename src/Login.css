@@ -6,6 +6,7 @@
 .login > div > img {
   object-fit: contain;
   height: 150px;
+  cursor: pointer;
 }
 
 .login > div {
@@ -21,6 +22,16 @@
 }
 
 .login > button:hover {
-  background-color: white;
+  opacity: 0.9;
   color: #2e81f4;
+}
+.login__footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.login__footer > a {
+  font-weight: 400;
+  color: red;
 }

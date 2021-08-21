@@ -28,6 +28,9 @@ function Login() {
             <Button type="submit" onClick={signIn}>
                 Sign In
             </Button>
+            <div className="login__footer">
+                <a href="https://docs.microsoft.com/en-us/advertising/scripts/examples/authenticating-with-google-services"><h4>It's totally safe to authenticate by google</h4></a>
+            </div>
         </div>
     )
 }
