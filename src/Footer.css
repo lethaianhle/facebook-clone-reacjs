@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  line-height: 30px;
+  color: gray;
+  box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+  background-image: linear-gradient(#f1f2f5, white);
+}
+
+.footer__contents > h5 {
+  font-weight: 400;
+}
