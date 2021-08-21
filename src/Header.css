@@ -73,6 +73,7 @@
 .header__info {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .header__info > h4 {

@@ -29,7 +29,8 @@ function Login() {
                 Sign In
             </Button>
             <div className="login__footer">
-                <a href="https://docs.microsoft.com/en-us/advertising/scripts/examples/authenticating-with-google-services"><h4>It's totally safe to authenticate by google</h4></a>
+                <a href="https://docs.microsoft.com/en-us/advertising/scripts/examples/authenticating-with-google-services" target="_blank"><h4>It's totally safe to authenticate by google</h4></a>
+                <a className="more" href="https://github.com/lethaianhle/facebook-clone-reacjs" target="_blank"><h4>More about us</h4></a>
             </div>
         </div>
     )

@@ -35,3 +35,19 @@
   font-weight: 400;
   color: red;
 }
+
+.login__footer > a:hover {
+  opacity: 0.7;
+}
+
+.login__footer .more > h4 {
+  color: gray;
+}
+
+.login__footer .more {
+  text-decoration: none;
+}
+
+.login__footer .more:hover {
+  opacity: 0.7;
+}
